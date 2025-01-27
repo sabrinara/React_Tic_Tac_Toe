@@ -1,5 +1,5 @@
-/* eslint-disable array-callback-return */
-import React, { useRef, useState } from 'react';
+
+import  { useRef, useState } from 'react';
 import Circle from "../Assets/circle.png";
 import Cross from "../Assets/cross.png";
 import "./TicTacToe.css"
@@ -59,7 +59,7 @@ const TicTacToe = () => {
     } else if (data[2] === data[5] && data[5] === data[8] && data[8] !== "") {
       won(data[8]);
     } else if (!data.includes("")) {
-      titleRef.current.innerHTML = "It's a draw! <span>Play Again?</span>";
+      titleRef.current.innerHTML = "It's a draw. <span>Play Again!</span>";
     }
   };
   
