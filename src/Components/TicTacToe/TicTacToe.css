@@ -48,3 +48,13 @@
     margin: auto;
 }
 
+.boxes img {
+    margin: 40px 40px;
+}
+
+.title img{
+    padding: 10px;
+    height: 40px;
+    margin-top: 10px;
+}
+
