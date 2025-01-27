@@ -59,7 +59,7 @@ const TicTacToe = () => {
     } else if (data[2] === data[5] && data[5] === data[8] && data[8] !== "") {
       won(data[8]);
     } else if (!data.includes("")) {
-      titleRef.current.innerHTML = "It's a draw! Play Again?";
+      titleRef.current.innerHTML = "It's a draw! <span>Play Again?</span>";
     }
   };
   
